@@ -56,18 +56,23 @@ body {
 }
 
 main {
+    padding: 80px;
     display: flex;
-    border: 1px #e5eaf5;
-    height: calc(100vh - 50px);
+    border: 5px #e5eaf5;
+    margin: auto;
     align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-imag{
-    max-width: 670px;
+    max-width: 600px;
     height: auto;
 }
-
+.content-left{
+    padding: 60px;
+    flex-direction: column;
+    text-align: center;
+}
 .content-right{
     width: 30%;
 }
