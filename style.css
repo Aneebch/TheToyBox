@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+:root {
+
+}
+
 body {
     height: 100%;
 }
@@ -49,4 +53,55 @@ body {
 
 .navbar .menu li a:hover {
     border-bottom: 4px solid black;
+}
+
+main {
+    display: flex;
+    border: 1px #e5eaf5;
+    height: calc(100vh - 50px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-imag{
+    max-width: 670px;
+    height: auto;
+}
+
+.content-right{
+    width: 30%;
+}
+
+main h2 {
+    font-size: 40px;
+    color:#25AED0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main p {
+    font-size: 25px;
+    color:  #FFB703;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.cta {
+    padding: 15px 39px;
+    background: #FFB703;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: n2px solid transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.cta:hover {
+    background: transparent;
+    border: 2px solid #25AED0;
+    cursor: pointer;
+    
 }
