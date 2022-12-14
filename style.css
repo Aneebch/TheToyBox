@@ -74,8 +74,9 @@ main {
     flex-direction: column;
     text-align: center;
 }
-.content-left{
-    width: ;
+
+.content-right {
+    width: 30%;
 }
 
 main h2 {
