@@ -1,11 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
 :root {
-    
+    --bgc-navbar: #25AED0;
+    --bgc-main: #8ECAE6;
+    --color-yellow: #FFB703;
+    --color-red: rgba(244, 68, 68, 0.58);
+    --color-searchbar: #010110;
+    --bgc-searchbar: #fffdf9;
 }
 
 body {
@@ -19,7 +24,7 @@ body {
     align-items: center;
     position: sticky;
     z-index: 999;
-    background-color: #25AED0;
+    background-color: var(--bgc-navbar);
     box-shadow: 0 0 14px black;
 }
 
@@ -36,11 +41,32 @@ body {
 .navbar .menu li a {
     display: block;
     margin-left: 20px;
-    color: #FFB703;
+    color: var(--color-searchbar);
     border-bottom: 4px solid transparent;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
+}
+
+.navbar .icons li .cart {
+    display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .icons li .wishlist {
+    display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 .navbar .menu li .active {
@@ -56,20 +82,21 @@ body {
 }
 
 main {
-    background-color: #8ECAE6;
+    background-color: var(--bgc-main);
     padding: 80px;
     display: flex;
-    border: 5px #8ECAE6;
+    border: 5px var(--bgc-main);
     margin: auto;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.hero-imag{
+#8ECAE6 .hero-imag {
     max-width: 600px;
     height: auto;
 }
-.content-left{
+
+.content-left {
     padding: 60px;
     flex-direction: column;
     text-align: center;
@@ -81,14 +108,14 @@ main {
 
 main h2 {
     font-size: 40px;
-    color:black;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
 main p {
     font-size: 25px;
-    color:  #FFB703;
+    color: #FFB703;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
@@ -96,7 +123,7 @@ main p {
 
 .cta {
     padding: 15px 39px;
-    background: #FFB703;
+    background: var(--color-red);
     text-decoration: none;
     color: rgb(0, 0, 0);
     outline: none;
@@ -110,6 +137,27 @@ main p {
     background: transparent;
     border: 2px solid #25AED0;
     cursor: pointer;
-    
+
 }
 
+.BuscarHover {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 19px 98px 3px 79px;
+    padding: 10px 309px 10px 20px;
+    border-radius: 50px;
+    border: solid 2px var(--color-searchbar);
+    background-color: var(--bgc-searchbar);
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    object-fit: contain;
+}
