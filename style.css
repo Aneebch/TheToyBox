@@ -5,7 +5,7 @@
 }
 
 :root {
-
+    
 }
 
 body {
@@ -56,9 +56,10 @@ body {
 }
 
 main {
+    background-color: #8ECAE6;
     padding: 80px;
     display: flex;
-    border: 5px #e5eaf5;
+    border: 5px #8ECAE6;
     margin: auto;
     align-items: center;
     flex-wrap: wrap;
@@ -73,13 +74,13 @@ main {
     flex-direction: column;
     text-align: center;
 }
-.content-right{
-    width: 30%;
+.content-left{
+    width: ;
 }
 
 main h2 {
     font-size: 40px;
-    color:#25AED0;
+    color:black;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -110,3 +111,4 @@ main p {
     cursor: pointer;
     
 }
+
