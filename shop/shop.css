@@ -95,3 +95,22 @@ body {
 .navbar .menu li a:hover {
     border-bottom: 4px solid black;
 }
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.banner-img {
+    overflow: hidden;
+}
+.banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    cursor: pointer;
+ }
