@@ -176,3 +176,10 @@ main p {
     flex-grow: 0;
     object-fit: contain;
 }
+
+.contact .contact-box h4 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    display: inline-block;
+}
