@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --bgc-navbar: #25AED0;
+    --bgc-main: #8ECAE6;
+    --color-yellow: #FFB703;
+    --color-red: rgba(244, 68, 68, 0.58);
+    --color-searchbar: #010110;
+    --bgc-searchbar: #fffdf9;
+}
+
+body {
+    height: 100%;
+}
+
+.navbar {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: var(--bgc-navbar);
+    box-shadow: 0 0 14px black;
+}
+
+.navbar .logo h1 {
+    color: rgb(68, 68, 197);
+    border-bottom: 4px solid rgb(5, 39, 151);
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .h-icons li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .h-icons li i {
+        display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .icons li .cart {
+    display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar .icons li .wishlist {
+    display: block;
+    margin-left: 20px;
+    color: var(--color-searchbar);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.navbar .menu li .active {
+    border-bottom: 4px solid #FFB703;
+}
+
+.navebar .menu li a i {
+    color: rgb(219, 8, 8);
+}
+
+.navbar .menu li a:hover {
+    border-bottom: 4px solid black;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(300px));
+    auto));
+align-items: center;
+gap: 2.5rem;
+background-color: #8ECAE6; 
+}
