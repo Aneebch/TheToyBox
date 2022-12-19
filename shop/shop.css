@@ -98,7 +98,7 @@ body {
 
 .banner{
     display: grid;
-    grid-template-columns: repeat(auto-fit, mimax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
     align-items: center;
     gap: 2.5rem;
     background-color: #8ECAE6; 
@@ -115,4 +115,8 @@ body {
     -webkit-transition: 1s linear;
     transition: 1s linear;
     cursor: pointer;
+}
+
+.banner-img:hover img{
+    transform: scale(1.1);
 }
