@@ -97,25 +97,34 @@ body {
 }
 
 .banner{
+    padding: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
     align-items: center;
     gap: 2.5rem;
-    background-color: #8ECAE6; 
+    background-color: #8ECAE6;
+    
 }
 
 .banner-img{
     overflow: hidden;
+    width: 300px;
+    height: 300px;
+    
+
 
 }
 
 .banner-img{
-    width: 100%;
+    
     display: flex;
     justify-content: center;
     -webkit-transition: 1s linear;
     transition: 1s linear;
     cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+
 
 }
 
