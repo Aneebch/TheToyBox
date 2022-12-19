@@ -106,6 +106,7 @@ body {
 
 .banner-img{
     overflow: hidden;
+
 }
 
 .banner-img{
@@ -115,6 +116,7 @@ body {
     -webkit-transition: 1s linear;
     transition: 1s linear;
     cursor: pointer;
+
 }
 
 .banner-img:hover img{
