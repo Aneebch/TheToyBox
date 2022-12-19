@@ -54,7 +54,7 @@ body {
 }
 
 .navbar .h-icons li i {
-        display: block;
+    display: block;
     margin-left: 20px;
     color: var(--color-searchbar);
     border-bottom: 4px solid transparent;
@@ -155,27 +155,44 @@ main p {
 
 }
 
-.BuscarHover {
-    width: 200px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    margin: 19px 98px 3px 79px;
-    padding: 10px 309px 10px 20px;
-    border-radius: 50px;
-    border: solid 2px var(--color-searchbar);
-    background-color: var(--bgc-searchbar);
+
+/*Buscar*/
+
+.form {
+    padding: 0px 0px 0px 0px;
+    float: left;
 }
 
-.search {
-    width: 30px;
-    height: 30px;
-    flex-grow: 0;
-    object-fit: contain;
+/* .form-search-input {
+    width: 0px;
+    height: 55px;
+    border: 0;
+    outline: 0;
+    font-size: 21px;
+    padding: 0px 0px 0px 0px;
+    color: #faf5f5;
+    transition: all 0.5s;
+} */
+
+.search-input-open {
+    width: 410px;
+    padding: 0px 0px 0px 20px;
+    display: initial;
 }
+
+.form-search-submit {
+    display: inline-block;
+    width: 55px;
+    height: 43px;
+    border: 0;
+    outline: 0;
+    font-size: 21px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+}
+
+
 
 .contact .contact-box h4 {
     display: flex;
