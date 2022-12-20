@@ -131,3 +131,13 @@ body {
 .banner-img:hover img{
     transform: scale(1.1);
 }
+
+
+.banner-img h4{
+
+        font-size: 14px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 400;
+        transition: all .25s ease;
+}
