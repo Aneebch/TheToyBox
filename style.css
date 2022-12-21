@@ -210,6 +210,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
+
+
 }
 
 .lorem {
@@ -218,6 +221,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    
+   
+    
 }
 
 .icons {
@@ -225,6 +233,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .icons a {
