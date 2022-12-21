@@ -54,7 +54,7 @@ body {
 }
 
 .navbar .h-icons li i {
-        display: block;
+    display: block;
     margin-left: 20px;
     color: var(--color-searchbar);
     border-bottom: 4px solid transparent;
@@ -142,6 +142,10 @@ body {
     cursor: pointer;
 }
 
+.info {
+    background-color: #8ECAE6;
+}
+
 .row:hover img{
     transform: scale(1.1);
 }
@@ -161,4 +165,43 @@ body {
 
 .row:hover .bbtn a {
     opacity: 1;
+}
+
+footer {
+    background-color: #a09fa3;
+}
+
+.logo {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    padding: 50px;
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    margin: 6px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.icons a:hover {
+    color: rgb(231, 156, 17);
 }

@@ -200,3 +200,52 @@ main p {
     list-style: none;
     display: inline-block;
 }
+
+footer {
+    background-color: #a09fa3;
+}
+
+.logo {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    padding: 50px;
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    margin: 6px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.icons a:hover {
+    color: rgb(231, 156, 17);
+}
+
+
+
+
+
+
+
+
+
+
