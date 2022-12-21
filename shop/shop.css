@@ -54,7 +54,7 @@ body {
 }
 
 .navbar .h-icons li i {
-        display: block;
+    display: block;
     margin-left: 20px;
     color: var(--color-searchbar);
     border-bottom: 4px solid transparent;
@@ -96,50 +96,112 @@ body {
     border-bottom: 4px solid black;
 }
 
-.banner{
-    padding: 50px;
+.banner {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.5rem;
+    background-color: #8ECAE6;
+}
+
+.banner-img{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 4.5rem;
+    text-align: center;
     background-color: #8ECAE6;
     
 }
 
-.banner-img{
-    overflow: hidden;
-    width: 300px;
-    height: 300px;
-    
-
-
-}
-
-.banner-img{
-    
-    display: flex;
-    justify-content: center;
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
+.row {
+    position: relative;
     cursor: pointer;
-    object-fit: cover;
-    object-position: center;
+}
 
+.row img{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    
 
 }
 
-.banner-img:hover img{
+.row h4{
+
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+
+.row h4:hover {
+    color: #25AED0;
+    cursor: pointer;
+}
+
+.info {
+    background-color: #8ECAE6;
+}
+
+.row:hover img{
     transform: scale(1.1);
 }
 
-
-.banner-img h4{
-
-        font-size: 14px;
-        margin-bottom: 5px;
-        text-transform: uppercase;
-        font-weight: 400;
-        transition: all .25s ease;
-        
+.row .bbtn a {
+    position: absolute;
+    bottom: 0px;
+    left: 1;
+    right: 0;
+    padding: 10px;
+    background: #FFB703;
+    color: #25AED0;
+    transition: opacity 0.5s;
+    opacity: 0;
+    border-radius: 10px;
 }
 
+.row:hover .bbtn a {
+    opacity: 1;
+}
+
+footer {
+    background-color: #a09fa3;
+}
+
+.logo {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    padding: 50px;
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    margin: 6px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.icons a:hover {
+    color: rgb(231, 156, 17);
+}
